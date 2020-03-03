@@ -54,28 +54,8 @@ h1 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Sarala';
-}
-
-.redTheme {
-  background-color: rgb(255, 68, 68);
-}
-
-.blueTheme {
-  background-color: rgb(72, 72, 255);
-}
-
-.greenTheme {
-  background-color: rgb(52, 207, 52);
-}
-
-.yellowTheme {
-  background-color: rgb(255, 255, 61);
-}
-
-.orangeTheme {
-  background-color: rgb(255, 82, 20);
 }
 
 #red-theme-btn {
@@ -115,16 +95,20 @@ label {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#first-overlay {
+  margin-top: -15px;
+}
+
 #second-overlay {
-  margin-top: 100px;
+  margin-top: 60px;
   border: 1px solid black;
   border-radius: 8px;
   margin-left: 75vh;
   margin-right: 75vh;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-bottom: 7px;
+  padding-top: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #back-button-div {
@@ -134,4 +118,9 @@ margin-top: 40px;
 #back-button {
   height: 29px;
   width: 30px;
+}
+
+#person-icon, #position-icon, #phone-icon, #email-icon {
+  height: 20px;
+  width: 20px;
 }
