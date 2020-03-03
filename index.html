@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sarala&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Personal Card</title>
+    <h1 id='title'>Personal Card Customizer</h1>
+</head>
+<body>
+    <div id='first-overlay'>
+        <div id='first-name-inputdiv'>
+            <label for='fname'>First Name:</label><br>
+            <input type="text" id='first-name-input' name='fname' class='required'>
+        </div>
+        <div id='last-name-inputdiv'>
+            <label for='lname'>Last Name:</label><br>
+            <input type="text" id='last-name-input' name='lname' class='required'>
+        </div>
+        <div id='position-inputdiv'>
+            <label for='pos'>Position:</label><br>
+            <input type='text' id="position-input" name='pos' class='required'>
+        </div>
+        <div id='contact-inputdiv'>
+            <label for='phone'>Phone number:</label><br>
+            <input type="number" id="contact-phone-input" name='phone' class='required'><br>
+            <label for='email'>Email:</label><br>
+            <input type='email' id='contact-email-input' name='email' class='required'>
+        </div>
+        <div id='submit-btn-div'>
+            <button id='submit-btn' class='hide'>Submit</button>
+        </div>
+    </div>
+    <div id='second-overlay' class='hide'>
+        <div id='complete-name-div'>
+            <p id='complete-name'></p>
+        </div>
+        <div id='position-div'>
+            <p id='position'>sdfsdf</p>
+        </div>
+        <div id='contact-div'>
+            <p id='contact-phone'>sdfsdf</p>
+            <p id='contact-email'>sdsdf</p>
+        </div>
+    </div>
+    <div id='theme-buttons' class='hide'>
+        <button id='red-theme-btn'></button>
+        <button id='blue-theme-btn'></button>
+        <button id='green-theme-btn'></button>
+        <button id='yellow-theme-btn'></button>
+        <button id='orange-theme-btn'></button>
+    </div>
+    <div id='back-button-div' class='hide'>
+        <img id='back-button' src='./Assets/back-button.png' />
+    </div>
+</body>
+</html>
